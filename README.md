@@ -23,7 +23,7 @@
 git clone https://github.com/<ユーザー名>/ccfolia-aspect-lock.git
 ```
 
-または、GitHub の「Code」→「Download ZIP」からダウンロードして展開してください。
+または、GitHub の「Release」からダウンロードして展開してください。
 
 ### 2. ブラウザに読み込む
 
