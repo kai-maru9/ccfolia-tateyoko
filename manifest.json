@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ココフォリア 縦横比固定リサイズ",
+  "version": "1.0.0",
+  "description": "スクリーンパネル・マーカーパネルのサイズ変更時に縦横比を維持します",
+  "content_scripts": [
+    {
+      "matches": ["https://ccfolia.com/*"],
+      "js": ["content.js", "drag.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "ccfolia-aspect-lock@example.com" }
+  }
+}
